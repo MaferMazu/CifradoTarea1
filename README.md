@@ -22,6 +22,7 @@ La Junta de Gobierno ha llamado al pueblo a tomar las armas contra los invasores
 pero la revolución sólo podrá tener éxito si se pueden interceptar y descifrar el mayor número
 de mensajes posibles. ¡En sus manos está que nuestra bandera ondee de nuevo sobre el
 Palacio de Gobierno!
+
 Requerimientos del programa
 Desarrolle un programa interactivo que permita:
 ● Registrar nuevos mensajes cifrados y sus descifrados
