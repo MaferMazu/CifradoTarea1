@@ -24,7 +24,7 @@ int main()
 		printf("● (6) SALIR\n\n");
 		printf("Opcion: ");
 
-		scanf("%d",&opcion);
+		gets (opcion, sizeof(opcion), stdin);
 		switch(opcion){
 			case 1:
 				while(1){
@@ -35,12 +35,12 @@ int main()
 
 					printf("Registrar nuevos mensajes:\n\n");
 					printf("Fecha del mensaje de la forma DD-MM-AAAA : ");
-					scanf("%s",fecha);
+					fgets (fecha, sizeof(fecha), stdin);
 
 					printf("Mensaje cifrado: ");
-					fgets (cifrado, 99, stdin);
+					fgets (cifrado, sizeof(cifrado), stdin);
 					printf("Mensaje descifrado: ");
-					fgets (descifrado, 99, stdin);
+					fgets (descifrado, sizeof(descifrado), stdin);
 
 
 
