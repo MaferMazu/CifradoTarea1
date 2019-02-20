@@ -34,12 +34,12 @@ int main()
 
 					printf("Registrar nuevos mensajes:\n\n");
 					printf("Fecha del mensaje: ");
-					scanf("%s",&fecha);
+					scanf("%s",fecha);
 
 					printf("Mensaje cifrado: ");
-					scanf("%s",&cifrado);
+					scanf("%s",cifrado);
 					printf("Mensaje descifrado: ");
-					scanf("%s",&descifrado);
+					scanf("%s",descifrado);
 
 
 
