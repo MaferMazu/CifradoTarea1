@@ -38,9 +38,9 @@ int main()
 					scanf("%s",fecha);
 
 					printf("Mensaje cifrado: ");
-					scanf("%s",cifrado);
+					fgets(cifrado,sizeof(cifrado),stdin);
 					printf("Mensaje descifrado: ");
-					scanf("%s",descifrado);
+					fgets(descifrado,sizeof(descifrado),stdin);
 
 
 
