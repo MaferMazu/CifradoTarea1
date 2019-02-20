@@ -35,12 +35,12 @@ int main()
 
 					printf("Registrar nuevos mensajes:\n\n");
 					printf("Fecha del mensaje de la forma DD-MM-AAAA : ");
-					scanf("%[^\n]%*c",fecha);
+					scanf("%s",fecha);
 
 					printf("Mensaje cifrado: ");
-					scanf ("%[^\n]%*c", cifrado);
+					fgets (cifrado, 99, stdin);
 					printf("Mensaje descifrado: ");
-					scanf ("%[^\n]%*c", descifrado);
+					fgets (descifrado, 99, stdin);
 
 
 
