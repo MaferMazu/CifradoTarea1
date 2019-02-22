@@ -24,7 +24,9 @@ int main()
 		printf("● (6) SALIR\n\n");
 		printf("Opcion: ");
 
-		gets (opcion, sizeof(opcion), stdin);
+		scanf("%d",&opcion);
+		fflush(stdin);
+		fflush(stdout);
 		switch(opcion){
 			case 1:
 				while(1){
