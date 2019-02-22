@@ -23,10 +23,11 @@ int main()
 		printf("● (5) Borrar un esquema de cifrado debido a un error\n");
 		printf("● (6) SALIR\n\n");
 		printf("Opcion: ");
-
-		scanf("%d",&opcion);
-		fflush(stdin);
 		fflush(stdout);
+
+		fflush(stdin);
+		scanf("%d",&opcion);
+		assert(getchar()=='\n');
 		switch(opcion){
 			case 1:
 				while(1){
